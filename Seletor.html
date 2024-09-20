@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+header>.link{
+    position: fixed;
+    width:100% ;
+    z-index: 1;
+    display: flex;
+    background-color:lightgreen;
+    justify-content:center;
+    align-items: center;
+   gap: 20px; 
+   padding: 30px;
+}
+
+   header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   gap: 30px; 
+   padding: 30px;
+   width: 100%;
+}
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.A{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+
+}
+.B{
+    justify-content:center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+}
+.B>div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 100px
+    
+}
+.T{
+    justify-content:center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 50px;
+    padding: 20px;
+    width: 50%;
+}
+.project{
+    justify-content:center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 30px;
+   width: 50%; 
+}
+.Project_part{
+   display: flex;
+}
+.P{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 10px;
+    gap: 20px;
+    margin: 20px; 
+    background-color: grey;
+    width: 50%;
+
+}
+
+ .Project_part>.P{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 10px;
+    gap: 20px;
+    margin: 30px; 
+    background-color: grey;
+    width: 50%;
+ }   
+
+.F{
+    justify-content:center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+}
+
+.Q{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:black;
+    background-color:lightseagreen;
+    padding: 30px;
+    margin: 30px;
+width: 100%;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="link">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SKILLS</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">CONTACT</a></div>
+    </header>
+    <div class="A">
+        <h1> Welcome to My Portfolio</h1>
+    </div>
+
+    <div class="B">
+        <h2>About Me</h2>
+<div><img src="https://pbs.twimg.com/media/EISqGicXsAAwBt6.jpg:large" alt="" width="70px">
+    <p>Hello I'm a web deverloper Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, tenetur.</p></div>
+    </div>
+
+    <div class="T">
+       <h2>My Skills</h2>
+        <table border="1">
+            <thead>
+            <tbody>
+                <tr  style="background-color: aqua;">
+                    <td>Skill</td>
+                    <td>Proficiency</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">HTML</td>
+                    <td style="text-align: left;">Expert</td>
+                </tr>
+                <tr >
+                    <td style="text-align: left;">CSS</td>
+                    <td style="text-align: left;">Advanced </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">JavaScript</td>
+                    <td style="text-align: left;">Intermediate</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+ </div>
+
+ <div class="project">
+    <h3>My Work</h3>
+<div class="Project_part">
+    <div class="P">
+        <img src="" alt="Project1" >
+    <h4>Project One</h4>
+    <p>Description of Project One</p>
+    </div>
+<div class="P">
+    <img src="" alt="Project2" >
+    <h4>Project Two</h4>
+    <p>Description of Project Two</p>
+</div></div>
+<div class="P">
+    <img src="" alt="Project3" >
+    <h4>Project Three</h4>
+    <p>Description of Project Three</p>
+</div>
+</div></div>
+
+ <div class="F"><form>
+    <label for="Name">Name:</label><br>
+    <input type="Name:" name="" id="" placeholder="" style="width: 70%; height:30px"><br>
+    <label for="email" >Email:</label><br>
+    <input type="Email:" name="" id="" placeholder="" style="width: 70%; height:30px"><br>
+    <label for="">Subject:</label><br>
+    <input type="Subject:" name="" id="" placeholder=""  style="width: 70%; height:30px" ><br>
+    <label for="Message:">Message:</label><br>
+    <input type="Message:" name="" id="" placeholder=""  style="width: 70%; height:30px">
+    <br><br>
+
+<button type="submit" style="background-color: aquamarine;padding:5px 20px;border-radius: 10px ;padding:15px;">Send Message</button>
+</form></div>
+<footer class="Q">@2024 MyWebsite. All right reserved.</footer></div>
+</body>
+</html>
